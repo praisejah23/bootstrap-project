@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeWork</title>
+    <link rel="stylesheet" href="./bootstrap.min.css ">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-xl bg-white fixed-top p-4 ps-5 pe-5">
+        <div class="container-fluid">
+            <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand me-5" href="#">WeWork</a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active underline-hover" aria-current="page" href="#">Find a Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active underline-hover" href="solution.html">Solutions</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active underline-hover" href="enterprise.html">Enterprise</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-primary me-5 p-2 show-on-nav" type="submit">Contact Us</button>
+
+                <form class="d-flex" role="search">
+                    <a class="nav-link underline-hover" href="#">Member log in</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="banner position-relative">
+        <div id="carouselExample" class="carousel slide p-5 my_slide">
+            <div class="carousel-inner p-5">
+                <div class="carousel-item active">
+                    <img src="./images/slide1.jpg" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slide2.jpg" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slide3.jpg" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slide4.jpg" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slide5.jpg" class="d-block w-100 " alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev prev_btn" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next next_btn" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="banner_card">
+            <div class="card border-0 ps-2 ms-5">
+                <div class="card-body">
+                    <h2 class="card-title fs-1 mb-4">For all the ways you work, we're here</h2>
+                    <p class="card-text lh-lg">Find a location near you. Explore memberships and move-in ready offices
+                        for individuals or companies of all sizes.</p>
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-outline-dark dropdown-toggle w-100 py-3 d-flex justify-content-between align-items-center"
+                            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Kansas City
+                        </button>
+                        <ul class="dropdown-menu w-100">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary form-control mt-3 py-3">Start</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5 p-5">
+        <div class="d-flex justify-content-between">
+            <h3>What are you looking for?</h3>
+            <a href="#">View all solutions</a>
+        </div>
+        <div class="row my-3">
+            <div class="col-lg-3 col-md-12 mb-3">
+                <div class="d-flex justify-content-lg-between border m_card p-3">
+                    <img src="./images/card1.png" alt="Private Office" />
+                    <div>
+                        <h3>Private Office</h3>
+                        <p>Move-in ready offices for teams of all sizes</p>
+                        <button>1-100+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 mb-3">
+                <div class="d-flex justify-content-lg-between border m_card p-3">
+                    <img src="./images/card2.png" alt="Dedicated Desk" />
+                    <div>
+                        <h3>Dedicated Desk</h3>
+                        <p>Your own desk in a shared office</p>
+                        <button>1-4</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 mb-3">
+                <div class="d-flex justify-content-lg-between border m_card p-3">
+                    <img src="./images/card3.png" alt="Meeting room" />
+                    <div>
+                        <h3>Meeting room</h3>
+                        <p>Private rooms bookable by the hour</p>
+                        <button>1-20</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 mb-3">
+                <div class="d-flex justify-content-lg-between border m_card p-3">
+                    <img src="./images/card4.png" alt="Coworking membership" class="img-fluid" />
+                    <div>
+                        <h3>Coworking membership</h3>
+                        <p>Hot desks, lounges..</p>
+                        <button>1+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container pt-3 mt-5" style="background-color: whitesmoke;height: auto;">
+        <div class="row m-4">
+            <div class="col-lg-5">
+                <div class="card-body">
+                    <h6 class="pb-4">GLOBAL NETWORK</h6>
+                    <h2 class="card-title pb-4">Workspace where and <br> when you need it</h2>
+                    <p class="card-text lh-lg" style="width: 400px;">With over 700 global locations, teams can do their
+                        best work in more places, whether it’s being productive closer to home, having access to
+                        multiple workspaces, or collaborating at a central office.</p>
+                </div>
+            </div>
+            <div class="col-lg-7 pb-4">
+                <img src="./images/map.jpg" alt="map" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+    <div class="container col-lg-12  mt-5 pt-5">
+        <div class="row col-lg-12">
+            <h2 class="pb-3">Empowering tomorrow’s world at work</h2>
+            <p class="lh-lg spacing"> For over a decade, we’ve been leading the future of flexible work. From
+                freelancers to
+                <br> Fortune 500s, we’re helping our members reimagine the ways they work.
+            </p>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row  d-flex justify-content-center p-5">
+            <div class="col-lg-2 col-md-4 col-sm-6 mb-3">
+                <div class=" border my_card p-3 dd">
+                    <img src="./images/logo_microsoft.png" alt="" class="img-fluid" />
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-3 col-sm-6">
+                <div class=" border my_card p-3 dd">
+                    <img src="./images/pfizer.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-3 col-sm-6">
+                <div class=" border my_card p-3 dd">
+                    <img src="./images/Salesforce_logo.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-3 col-sm-6">
+                <div class=" border my_card p-3 dd">
+                    <img src="./images/samsung.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-3 col-sm-6">
+                <div class=" border my_card p-3 dd">
+                    <img src="./images/visa.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 mb-3 col-sm-6">
+                <div class=" border my_card p-3 dd">
+                    <img src="./images/zoom.png" alt="" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid p-5">
+        <div class="row">
+            <div class="container col-lg-6">
+                <img src="./images/img1.jpg" alt="" class="img-fluid rounded">
+            </div>
+            <div class="container col-lg-6 pt-5">
+                <h2>The importance of flexible office <br> spaces</h2>
+                <p>A Cushman & wakefield survey finds flexible offices are an important component of the workspace
+                    system.</p>
+            </div>
+        </div>
+    </div>
+    <hr class="m-5">
+    <div class="container-fluid p-5">
+        <div class="row">
+            <div class="container col-lg-4">
+                <img src="./images/sec1.jpg" alt="" class="rounded img-fluid">
+                <h4 class="pt-3">A cutting workspace near washgington,D.C.</h4>
+                <p>Wework The Wilson is custom-designed for its home community</p>
+            </div>
+            <div class="container col-lg-4">
+                <img src="./images/sec2.jpg" alt="" class="rounded img-fluid">
+                <h4 class="pt-3">How one remote creative agency went global, fast.</h4>
+                <p>Elephant skin embraced remote work and office space at WeWork to create a global business</p>
+            </div>
+            <div class="container col-lg-4">
+                <img src="./images/sec3.jpg" alt="" class="rounded img-fluid">
+                <h4 class="pt-3">How four founders use WeWotk All Access</h4>
+                <p> For these founders, the workspace helps grow their company and culture</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid mt-5">
+        <div class="d-flex mb-3 ms-5 pt-5 column-gap-3 col-lg-4  mmm-icon">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-instagram ps-3" aria-hidden="true"></i>
+            <i class="fa fa-twitter ps-3" aria-hidden="true"></i>
+            <i class="fa fa-linkedin ps-3" aria-hidden="true"></i>
+        </div>
+        <div class="row p-5">
+            <div class="col-lg-2 col-md-6 pe-2">
+                <ul>
+                    <li><a href="#">COMPANY</a></li>
+                    <li>Global Locations</li>
+                    <li>Mission</li>
+                    <li>Inclusion & Diversity</li>
+                    <li>Careers</li>
+                    <li>Investors</li>
+                    <li>Newsroom</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <ul>
+                    <li><a href="">PARTNERSHIPS</a></li>
+                    <li>Landlords</li>
+                    <li>Refer a Friend</li>
+                    <li>Event Planners</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <ul>
+                    <li><a href="">SUPPORT</a></li>
+                    <li>Contact Us</li>
+                    <li>Member Login</li>
+                    <li>Help Center</li>
+                    <li>COVID Response</li>
+
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <div class="d-flex mb-3 column-gap-3  my-icon">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa-instagram ps-3" aria-hidden="true"></i>
+                    <i class="fa fa-twitter ps-3" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin ps-3" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <div class="container">
+                        <select class="px-4 py-3" name="language" id="">
+                            <option value="">English</option>
+                            <option value="">English(UK)</option>
+                            <option value="">English(South)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 gin p-5">
+            <div class=" col-lg-4 col-md-12">
+                <a href="#">All Locations</a><br>
+                <a href="#">(646)389-3922</a>
+                <p class="lh-lg">WeWork Companies LLC <br>12 East 49th Street <br>Floor 3 <br>New York, NY 10017</p>
+            </div>  
+            <div class=" col-lg-6 col-md-12 ms-auto ">
+                <div class="d-flex justify-content-between  ">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies Settings</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Sitemap</a>
+                    <img src="./images/footer.svg" alt="" style="width: 50px;">
+                </div>
+                <p>Copyright © 2023 WeWork. All rights reserved.
+                </p>           
+            </div>         
+        </div>
+    </footer>
+
+</body>
+<script src="./bootstrap.bundle.min.js"></script>
+</html>
